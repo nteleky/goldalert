@@ -103,3 +103,12 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+.glyphicon{
+  color:grey;
+}
+
+.medal_icon{
+  width:20px;
+  height:20px;
+}
