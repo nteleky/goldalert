@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--starting dashboard-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/dashboard.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
+          <a class="navbar-brand" href="#">Gold Alert</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../athletes/search_athlete.html">Add Athlete</a></li>
+            <li><a href="../events/search_event.html">Add Event</a></li>
+            <li><a href="../index.html">Log Out</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+		  <!--Athlete Table-->
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th><img src="../img/gold_medal.jpg" class="medal_icon" alt="gold" /></th>
+                  <th><img src="../img/silver_medal.jpg" class="medal_icon" alt="silver" /></th>
+                  <th><img src="../img/bronze_medal.jpg" class="medal_icon" alt="bronze" /></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Michael Phelps</td>
+                  <td>18</td>
+                  <td>4</td>
+                  <td>5</td>
+				  <td><span class="glyphicon glyphicon-cog"></span></td>
+                </tr>
+				<tr>
+                  <td>2</td>
+                  <td>Usain Bolt</td>
+                  <td>8</td>
+                  <td>2</td>
+                  <td>1</td>
+				  <td><span class="glyphicon glyphicon-cog"></span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+		  <!--Event Table-->
+		  <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Event</th>
+                  <th><img src="../img/gold_medal.jpg" class="medal_icon" alt="gold" /></th>
+                  <th><img src="../img/silver_medal.jpg" class="medal_icon" alt="silver" /></th>
+                  <th><img src="../img/bronze_medal.jpg" class="medal_icon" alt="bronze" /></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Tennis</td>
+                  <td>Williams</td>
+                  <td>Teleky</td>
+                  <td>Pierce</td>
+				  <td><span class="glyphicon glyphicon-cog"></span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+		  
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
